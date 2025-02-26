@@ -31,3 +31,29 @@ circumference = 2 * 3.14 * radius
 print("El área del circulo es: ", area)
 print("La circunferencia del circulo es: ", circumference)
 
+x = 0
+yint = 2 * x +2
+y = 0
+xint = (y - 2) / 2
+m8 = yint / (-xint)
+print("La pendiente de la recta es: ", m8)
+
+y2 = 2 
+y1 = 10
+x2 = 2
+x1 = 6
+m9 = (y2 - y1) / (x2 - x1)
+print("La pendiente de la recta es: ", m9)
+
+ej10 = m8 == m9
+print("La pendiente del ejercicio 8 es igual que la del 9? ", ej10)
+ej10 = m8 >= m9
+print("La pendiente del ejercicio 8 es mayor o igual que la del 9? ", ej10)
+ej10 = m8 <= m9
+print("La pendiente del ejercicio 8 es menor o igual que la del 9? ", ej10)
+ej10 = m8 != m9
+print("La pendiente del ejercicio 8 es diferente que la del 9? ", ej10)
+ej10 = m8 > m9  
+print("La pendiente del ejercicio 8 es mayor que la del 9? ", ej10)
+ej10 = m8 < m9
+print("La pendiente del ejercicio 8 es menor que la del 9? ", ej10)
