@@ -10,6 +10,18 @@ height = float(input('Enter the height of the triangle: '))
 area = 0.5 * Base * height
 print('The area of the triangle is: ', area)
 #Ejercicio 5
+sidea = float('Enter side a of the triangle')
+sideb = float('Enter side b of the triangle')
+sidec = float('Enter the side c ot the triangle')
+perimeter = sidea + sideb + sidec 
+print(perimeter)
+#Ejercicio 6 
+lenght = float('Enter the lenght of a rectangle')
+width = float('Enter the width of a rectangle')
+area = lenght * width
+perimeter = 2*(lenght + width)
+#Ejercicio 7
+
 
 
 
