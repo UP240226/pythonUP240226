@@ -1,3 +1,19 @@
+#Ejercicio 1
+age = int(18)
+#Ejercicio 2
+hoight = float(1.59)
+#Ejercicio 3
+complex_number = 3 + 5j
+#Ejercicio 4
+Base = float(input('Enter the base of the triangle: '))
+height = float(input('Enter the height of the triangle: '))
+area = 0.5 * Base * height
+print('The area of the triangle is: ', area)
+#Ejercicio 5
+
+
+
+
 edad = 18
 estatura = 1.59
 numero_complejo = 3 + 5j
