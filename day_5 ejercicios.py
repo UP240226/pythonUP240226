@@ -36,7 +36,26 @@ it_companies_add.pop()
 middle = 'Meta'
 centro = int(len(it_companies_add)/2)
 it_companies_add.insert(centro,middle)
-print(it_companies_add)
+print('Meta in the middle:', it_companies_add)
 #Ejercicio 13
-upper = it_companies.upper()
-print(upper)
+it_companies =  ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print('Upper case:', it_companies[1].upper())
+#Ejercicio 14
+print('Join companies with #; :', '#;'.join(it_companies))
+#Ejercicio 15
+it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print('Facebook and Apple are in the list of Companies?:', 'Facebook' and 'Apple' in it_companies)
+#Ejercicio 16
+list_2 = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+list_2.sort()
+print('Alphabetic order of the list:', list_2)
+#Ejercicio 17
+list_2.reverse()
+print('List in reverse alphabetic order:', list_2)
+#Ejercicio 18
+print('First 3 companies:', it_companies[0:3])
+#Ejercicio19
+print('Last 3 companies:', it_companies[4:7])
+#Ejercicio 20
+middle = int(len(it_companies)/2)
+print(middle)
