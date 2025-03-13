@@ -57,5 +57,38 @@ print('First 3 companies:', it_companies[0:3])
 #Ejercicio19
 print('Last 3 companies:', it_companies[4:7])
 #Ejercicio 20
-middle = int(len(it_companies)/2)
-print(middle)
+it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+middle = len(it_companies)//2
+it_companies.pop(middle)
+print('Remove the middle company: (Apple)', it_companies)
+#Ejercicio 21
+it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+it_companies.pop(0)
+print('Remove the first company: (Facebook)', it_companies)
+#Ejercicio 22
+it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+middle = len(it_companies)//2
+it_companies.pop(middle)
+print('Remove the middle company: (Apple)', it_companies)
+#Ejercicio 23
+it_companies.pop()
+print('Remove the last company: (Amazon)', it_companies)
+#Ejercicio 24
+it_companies.clear()
+print('Remove all the companies:', it_companies)
+#Ejercicio 25
+del it_companies
+#Ejercicio 26
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node', 'Express', 'MongoDB']
+join = front_end + back_end
+print('front_end:', front_end)
+print('back_end:', back_end)
+print('Join front_end and back_end:', join)
+#Ejercicio 27
+full_stack = join
+full_stack.append('Python')
+full_stack.append('SQL')
+print('Full stack:', full_stack)
+#Exercises: Level 2
+print('Exercises: Level 2')
