@@ -92,3 +92,40 @@ full_stack.append('SQL')
 print('Full stack:', full_stack)
 #Exercises: Level 2
 print('Exercises: Level 2')
+#Ejercicio 1
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+print('Ages list:', ages)
+ages.sort() 
+print('Sorted Ages list:', ages)
+print('min:', ages[0])
+print('max:', ages[len(ages)-1])
+centro = len(ages)//2
+print('Middle age:', ages[centro])
+average = sum(ages)/len(ages)
+print('Average:', average)
+range = ages[len(ages)-1] - ages[0]
+print('Range of the list is:', range)
+comparemin = abs(ages[0] - average)
+comparemax = abs(ages[len(ages)-1] - average)
+compare = comparemax - comparemin
+print('Min value minus average:', comparemin)
+print('Max value minus average:', comparemax)
+print('Range minus average:', compare)
+#Ejercicio 2
+countries = ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway']
+centro = len(countries)//2
+print('The middle country is:', countries[centro])
+#Ejercicio 3
+centro = len(countries)//2
+left = countries[0:centro]
+right = countries[centro:len(countries)]
+print('Half left list of countries:', left)
+print('Half right list of countries:', right)
+#Ejercicio 4
+countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+print('Countries:', countries)
+centro = len(countries)//2
+others = countries[0:centro]
+scandic = countries[centro:len(countries)]
+print('Not scandic Countries:', others)
+print('Scandic Countries:', scandic)
