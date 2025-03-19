@@ -20,5 +20,26 @@ print('Family members:', family_members)
 print("")
 print('Exercises: Level 2')
 #Ejercicio 1
-family_members = siblings + parents
-print('Unpack siblings and parents:', family_members)
+tuplesister = list(tuplesister)
+tuplebrother = list(tuplebrother)
+parents = list(parents)
+family_members = list(family_members)
+parents = family_members[-2:]
+print('Parents:', parents)
+print('Siblings:', family_members[:-2])
+#Ejercicio 2
+tplfruts = ('apple', 'banana', 'cherry')
+tplvegtables = ('tomato', 'potato', 'onion')
+tplanimal_prod = ('meat', 'milk', 'eggs')
+food_stuff_tp = tplfruts + tplvegtables + tplanimal_prod
+tuple(food_stuff_tp)
+print('Food stuff tuple:', food_stuff_tp)
+print(type(food_stuff_tp))
+#Ejercicio 3
+food_stuff_lt = list(food_stuff_tp)
+print('Food stuff list:', food_stuff_lt)
+print(type(food_stuff_lt))
+#Ejercicio 4
+centro = len(food_stuff_lt)//2
+food_stuff_lt[centro]
+print('Center of the list:', centro)
