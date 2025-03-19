@@ -1,3 +1,4 @@
+#Exercises: Level 1
 #Ejercicio 1
 tpl = ()
 print(tpl)
@@ -11,7 +12,13 @@ print('Siblings:', siblings)
 lensib = len(siblings)
 print('How many siblings do you have:', lensib)
 #Ejercicio 5
-father = siblings.append('Victor')
-mother = siblings.append('Eli')
-family_members = siblings
+parents = 'Victor', 'Elizabeth'
+family_members = siblings + parents
 print('Family members:', family_members)
+
+#Exercises: Level 2
+print("")
+print('Exercises: Level 2')
+#Ejercicio 1
+family_members = siblings + parents
+print('Unpack siblings and parents:', family_members)
