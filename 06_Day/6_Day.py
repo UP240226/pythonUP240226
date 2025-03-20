@@ -41,5 +41,14 @@ print('Food stuff list:', food_stuff_lt)
 print(type(food_stuff_lt))
 #Ejercicio 4
 centro = len(food_stuff_lt)//2
-food_stuff_lt[centro]
-print('Center of the list:', centro)
+middle = food_stuff_lt[centro]
+print('Center of the list:', middle)
+#Ejercicio 5
+food_stuff_lt = ['apple', 'banana', 'cherry', 'tomato', 'potato', 'onion', 'meat', 'milk', 'eggs']
+first_three = food_stuff_lt[:3]
+last_three = food_stuff_lt[-3:]
+print('The First three items are:', first_three)
+print('The Last three items are:', last_three)
+#Ejercicio 6
+del food_stuff_lt[0:len(food_stuff_lt)]
+print('The tuple list of food is:', food_stuff_lt)
