@@ -52,3 +52,8 @@ print('The Last three items are:', last_three)
 #Ejercicio 6
 del food_stuff_lt[0:len(food_stuff_lt)]
 print('The tuple list of food is:', food_stuff_lt)
+#Ejercicio 7
+paisesnordicos = ('Norway', 'Sweden', 'Denmark', 'Finland', 'Iceland', 'Estonia', 'Latvia', 'Lithuania')
+print('Paises Nordicos', paisesnordicos)
+print('Estonia esta en la lista?:', 'Estonia' in paisesnordicos)
+print('Iceland esta en la lista?:', 'Iceland' in paisesnordicos)
