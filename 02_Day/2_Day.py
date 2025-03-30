@@ -107,26 +107,47 @@ diff = num_one - num_two
 print('Difference:', diff)
 print("")
 #Ejercicio 7
+print('Ejercicio 7')
 product = num_two * num_one
+print('Product:', product)
+print("")
 #Ejercicio 8
+print('Ejercicio 8')
 division = num_one / num_two
+print('Division:', division)
+print("")
 #Ejercicio 9
+print('Ejercicio 9')
 remainder = num_two % num_one
+print('Remainder:', remainder)
+print("")
 #Ejercicio 10
+print('Ejercicio 10')
 exp = num_one ** num_two
+print('Exponent:', exp)
+print("")
 #Ejercicio 11
+print('Ejercicio 11')
 floor_division = num_one // num_two
+print('Floor division:', floor_division)
+print("")
 #Ejercicio 12
+print('Ejercicio 12')
 circle_radius = float(input('Enter the radius of the circle: '))
 area_of_circle = 3.14 * circle_radius ** 2
 circum_of_circle = 2 * 3.14 * circle_radius
 print('The area of the circle is:', area_of_circle)
 print('The circumference of the circle is:', circum_of_circle)
+print("")
 #Ejercicio 13
+print('Ejercicio 13')
 userFirstName = input('Enter your fisrt name: ')
 userLastName = input('Enter your last name: ')
 userCountry = input('Enter your country: ')
 userAge = input('Enter your age: ')
-print(userFirstName, userLastName, userCountry, userAge)
+print('Your name is:', userFirstName, userLastName, 'and you are', userAge, 'years old')
+print("")
 #Ejercicio 14
+print('Ejercicio 14')
 help('keywords')
+print("")

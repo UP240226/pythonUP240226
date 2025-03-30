@@ -100,5 +100,8 @@ print("")
 #Ejercicio 3
 print('Ejercicio 3')
 sentence = 'I am a teacher and I love to inspire and teach people'
-unique = {'teacher', 'love', 'inspire'}
-split = unique.split(sentence)
+palabras = sentence.split()
+print(palabras)
+uniqueValues = set(palabras)
+print(uniqueValues)
+print("")
