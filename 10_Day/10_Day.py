@@ -67,7 +67,7 @@ print("")
 #Ejercicio 1
 print('Ejercicio 1')
 for i in range(101):
-    sum = sum (sum + i)
+    sum = sum + i
     print("El resultado de la suma de TODOS los numeros del 0 al 100 es: ", sum)
 print("")
 #Ejercicio 2
