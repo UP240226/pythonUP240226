@@ -192,3 +192,4 @@ scandic = countries[centro:len(countries)]
 print('Not scandic Countries:', others)
 print('Scandic Countries:', scandic)
 print("")
+print("revisado")

@@ -195,3 +195,5 @@ middle = 'sideways'
 stmk = 'stock market'
 trade = 'The {} today is expected to be {}. The price of the stock market at the end of the month is expected to be more {} than {}.'.format(stmk, middle, high, low)
 print(trade)
+
+print("revisado")
