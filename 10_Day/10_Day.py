@@ -74,8 +74,11 @@ print("")
 #Ejercicio 2
 print('Ejercicio 2, MEJORA')
 print('Evens')
-for even in range(0,101,2):
-    print(((number * (even + 1))//4) + 25)
+sumaImpar = 0
+for i in range(101):
+    if i %2 == 1:
+        sumaImpar = sumaImpar + i
+print("el resultado de la suma de impares es: ", sumaImpar)
 print("")
 print('Odds')
 for odd in range(2,101,2):
