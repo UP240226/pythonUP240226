@@ -1,4 +1,4 @@
-'''#Ejercicio 1
+#Ejercicio 1
 print('Ejercicio 1')
 age = int(input('Enter your age: '))
 if age >= 18:
@@ -79,7 +79,7 @@ if fruit not in fruits:
     print('We add', fruit, 'to the list')
     print(fruits)
 print("")
-'''
+
 #Exercises: Level 3
 print('Exercises: Level 3')
 print("")
