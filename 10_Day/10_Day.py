@@ -285,12 +285,14 @@ countries = [
   'Zambia',
   'Zimbabwe',
 ];
-for land in countries:
-    countries['land']
-    print(countries['land'])
+for countrie in countries:
+    if 'land' in countrie:
+        print(countrie)
+    
 print("")
 #Ejercicio 2
 print('Ejercicio 2, NO SE')
 list = ['banana', 'orange', 'mango', 'lemon']
-for fruits in list:
-    print(fruits)
+print(list)
+list.reverse()
+print(list)
