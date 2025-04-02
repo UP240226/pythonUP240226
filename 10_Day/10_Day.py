@@ -35,11 +35,11 @@ print("")
 #Ejercicio 4
 print('Ejercicio 4, ERROR')
 rows = ('# # # # # # # #')
-for row in rows:
+for i in range(8):
     print(rows)
-    while rows == 8:
-        break
-print("")
+print("------------------")
+
+
 #Ejercicio 5
 print('Ejercicio 5')
 for pattern in range(0,11):
