@@ -304,6 +304,7 @@ print("")
 #Ejercicio 3
 print('Ejercicio 3')
 print("")
+#Ejercicio i
 print('i.')
 countries = [
     {
@@ -2926,6 +2927,9 @@ countries = [
     }
 ]
 
+
 listaIdiomas = []
-list = [language for idiomas in listaIdiomas for language in idiomas]
+list = [listaIdiomas for languages in countries for idioma in languages]
 print(list)
+#Ejercicio ii
+print('ii')
