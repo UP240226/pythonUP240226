@@ -66,9 +66,10 @@ print('Exercises: Level 2')
 print("")
 #Ejercicio 1
 print('Ejercicio 1')
+sum = 0
 for i in range(101):
     sum = sum + i
-    print("El resultado de la suma de TODOS los numeros del 0 al 100 es: ", sum)
+print("El resultado de la suma de TODOS los numeros del 0 al 100 es: ", sum)
 print("")
 #Ejercicio 2
 print('Ejercicio 2')
@@ -76,15 +77,15 @@ print('Evens')
 sumapar = 0
 for i in range(101):
     if i % 2 == 0:
-        sumaPar = sumaPar + i
-print("El resultado de la suma de los pares es: ", sumaPar)
+        sumapar = sumapar + i
+print("El resultado de la suma de los pares es:", sumapar)
 print("")
 print('Odds')
 sumaImpar = 0
 for i in range(101):
     if i % 2 == 1:
         sumaImpar = sumaImpar + i
-print("El resultado de la suma de impares es: ", sumaImpar)
+print("El resultado de la suma de impares es:", sumaImpar)
 print("")
 
 
@@ -299,6 +300,7 @@ list = ['banana', 'orange', 'mango', 'lemon']
 print(list)
 list.reverse()
 print(list)
+print("")
 #Ejercicio 3
 print('Ejercicio 3')
 print("")
