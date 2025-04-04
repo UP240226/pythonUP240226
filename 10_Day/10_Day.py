@@ -122,6 +122,31 @@ for pais in paises:
         listaIdiomas.append(language)
 
 idiomasUnicos = set(listaIdiomas)
-print(idiomasUnicos)
+sortedIdiomas = sorted(idiomasUnicos)
+print('Total numbers of languages:', len(idiomasUnicos))
+print("")
 #Ejercicio ii
 print('ii')
+
+dicHablantes = {}
+for language in idiomasUnicos:
+    dicHablantes[language] = 0
+
+print(dicHablantes)
+
+for idioma in dicHablantes:
+        for pais in paises:
+            if idioma is pais['languages']:
+                dicHablantes[idioma] = pais['population'] + dicHablantes[language]
+
+ordenados = sorted(dicHablantes.values(), reverse=True)
+ordenadosKeys = sorted(dicHablantes, key=dicHablantes.get, reverse=True)
+
+print(ordenadosKeys[1], ordenados[1])
+print("")
+#Ejercicio iii
+print('Ejercicio iii')
+
+for i in range(10):
+    print(ordenadosKeys[i], ordenados[i])
+print("")
