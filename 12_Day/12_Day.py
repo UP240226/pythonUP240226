@@ -86,3 +86,5 @@ def uniqueNumbers ():
     return random.sample(range(10),7)
 print(uniqueNumbers())
 print("")
+
+print("Revisado")

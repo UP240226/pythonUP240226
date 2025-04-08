@@ -134,3 +134,5 @@ oracion = reduce(paisOracion,countries)
 oracion1 = oracion + 'son paises de europa'
 print(oracion1)
 print("")
+
+print("Revisado")
